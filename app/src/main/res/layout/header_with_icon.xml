@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_margin="10dp"
+        android:id="@+id/header_icon_drawable"
+        android:src="@drawable/order_status"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:textColor="@color/white"
+        android:layout_height="match_parent"
+        android:text="DEMO TITLE"
+        fontPath="fonts/Montserrat-Bold.ttf"
+        android:id="@+id/heading"
+        android:textSize="20sp"
+        tools:ignore="MissingPrefix" />
+
+</LinearLayout>
